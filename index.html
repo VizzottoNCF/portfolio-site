@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vizzotto | Game Developer</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="site-nav">
+      <a class="logo" href="#top">Vizzotto</a>
+      <ul class="main-menu">
+        <li><a href="#projects" data-i18n="navProjects">Projects</a></li>
+        <li><a href="#about" data-i18n="navAbout">About</a></li>
+        <li class="langs">
+          <button class="lang active" data-lang="en">EN</button>
+          <button class="lang" data-lang="pt">PT</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content" id="top">
+    <section class="hero">
+      <h1>Vizzotto</h1>
+      <p class="title" data-i18n="title">Game Developer</p>
+      <p class="intro" data-i18n="intro">I build games and the systems behind them. Pick a project to see what I made and what I did on it.</p>
+    </section>
+
+    <section id="projects">
+        <h2 data-i18n="navProjects">Projects</h2>
+      <div class="grid" id="project-grid"></div>
+    </section>
+
+    <section id="about" class="about">
+      <h2 data-i18n="navAbout">About</h2>
+      <p data-i18n="about">Write a short paragraph about yourself here: where you are, what you like to build, and how to reach you.</p>
+    </section>
+  </main>
+
+  <dialog id="project-dialog" aria-labelledby="dlg-title">
+    <button class="close" aria-label="Close">&times;</button>
+    <div class="dlg-media">
+      <div class="dlg-main" id="dlg-main"></div>
+      <div class="dlg-thumbs" id="dlg-thumbs"></div>
+    </div>
+    <div class="dlg-info">
+      <h2 id="dlg-title"></h2>
+      <p id="dlg-desc"></p>
+      <h3 data-i18n="role">My role</h3>
+      <p id="dlg-role"></p>
+      <h3 data-i18n="skills">Main skills</h3>
+      <ul class="tags" id="dlg-skills"></ul>
+      <p id="dlg-links"></p>
+    </div>
+  </dialog>
+
+  <footer>&copy; <span id="year"></span> Vizzotto</footer>
+
+  <script src="js/project.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
