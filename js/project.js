@@ -14,8 +14,8 @@ const PROJECTS = [
       en: "The player is a galactic emperor expanding their territory, choosing which alien servant to send on which mission to win the challenges of each planet. Made with a team for GameJamUFN 2026.1.",
       pt: "O jogador é um imperador galáctico que expande seu território, escolhendo qual servo alienígena enviar para cada missão e vencer os desafios de cada planeta. Feito em equipe para a GameJamUFN 2026.1."
     },
-    role: TODO,
-    skills: ["Unity", "C#", "Strategy", "Teamwork"],
+    role: { en: "Lead Developer and Programmer", pt: "Líder de Desenvolvimento e Programador" },
+    skills: ["Unity", "C#", "Team Management"],
     links: [{ label: "Play on itch.io", url: "https://vizzotto.itch.io/total-domination" }]
   },
   {
@@ -27,16 +27,13 @@ const PROJECTS = [
       "https://img.itch.zone/aW1nLzIxMjA4NzEwLnBuZw==/original/rIhc0%2F.png",
       "https://img.itch.zone/aW1nLzIxMjA4NDI0LnBuZw==/original/TB9r%2Fz.png"
     ],
-    summary: { en: "Space traffic puzzle with cats and pixel art.", pt: "Puzzle de trânsito espacial com gatos e pixel art." },
+    summary: { en: "Space traffic puzzle with cats and aliens.", pt: "Puzzle de trânsito espacial com gatos e alienígenas." },
     description: {
-      en: "Missão Interplanetária de Apoio Universal: manage the space traffic of small sectors of the galaxy. Made by a team from the Digital Games course for UFN Game Jam 2025.1 (theme: \"5 Stars\").",
+      en: "Multiplanetary Expedition for Otherworldly Welfare: manage the space traffic of small sectors of the galaxy. Made by a team from the Digital Games course for UFN Game Jam 2025.1 (theme: \"5 Stars\").",
       pt: "Missão Interplanetária de Apoio Universal: gerencie o trânsito espacial de pequenos setores das galáxias. Feito em equipe pelo curso de Jogos Digitais para a Game Jam UFN 2025.1 (tema: \"5 Estrelas\")."
     },
-    role: {
-      en: "Programmer, together with Bruno Ardais. Art was by three teammates.",
-      pt: "Programador, junto com Bruno Ardais. A arte ficou com outros três colegas."
-    },
-    skills: ["Unity", "C#", "Physics", "Teamwork"],
+    role: { en: "Lead Developer and Programmer", pt: "Líder de Desenvolvimento e Programador" },
+    skills: ["Unity", "C#", "Unity Physics", "Team Management"],
     links: [{ label: "Play on itch.io", url: "https://vizzotto.itch.io/miau" }]
   },
   {
@@ -48,13 +45,13 @@ const PROJECTS = [
       "https://img.itch.zone/aW1nLzE3NTk1MTUzLnBuZw==/original/Cqb%2Fi4.png",
       "https://img.itch.zone/aW1nLzE3NTk1OTAxLnBuZw==/original/10gqR9.png"
     ],
-    summary: { en: "Bullet heaven made in GameMaker.", pt: "Bullet heaven feito no GameMaker." },
+    summary: { en: "A bullet heaven made about a small spider surviving in a chaotic garden.", pt: "Um bullet heaven sobre uma pequena aranha sobrevivendo em um jardim caótico." },
     description: {
       en: "A bullet heaven game made for UFN Game Jam 2024 with the theme \"Survival in small scale\".",
       pt: "Um jogo bullet heaven feito para a Game Jam UFN 2024 com o tema \"Sobrevivência em pequena escala\"."
     },
-    role: TODO,
-    skills: ["GameMaker Studio 2", "Bullet heaven", "Teamwork"],
+    role: { en: "Auxilary Content Developer, Assistant Programmer and Sound Design", pt: "Desenvolvimento de Mecânicas Auxiliares, Programador Auxiliar e Design Sonoro" },
+    skills: ["GameMaker Studio 2", "Bullet heaven", "Team Cooperation"],
     links: [{ label: "Download on itch.io", url: "https://vizzotto.itch.io/spider-heaven" }]
   },
   {
@@ -65,16 +62,16 @@ const PROJECTS = [
       "https://img.itch.zone/aW1nLzE4NjIzMDExLnBuZw==/original/CJVKkJ.png",
       "https://img.itch.zone/aW1nLzE4NjIyNjQ3LnBuZw==/original/Z0CvJp.png"
     ],
-    summary: { en: "3D puzzle exploration in a haunted museum.", pt: "Puzzle de exploração 3D em um museu assombrado." },
+    summary: { en: "Game made in cooperation with local museum Gama D'Eça.", pt: "Jogo feito em colaboração com museu local Gama D'Eça." },
     description: {
-      en: "Your friends dare you to explore a small museum alone at night after rumors of ghosts. Meet its residents and help them with their requests. Includes an original soundtrack.",
-      pt: "Ouvindo rumores de fantasmas em um pequeno museu, seus amigos te desafiam a explorá-lo sozinho durante a noite. Descubra os residentes e ajude-os com seus pedidos. Inclui trilha sonora original."
+      en: "Your friends dare you to explore a small museum alone at night after rumors of ghosts. Meet its residents and help them with their requests.",
+      pt: "Ouvindo rumores de fantasmas em um pequeno museu, seus amigos te desafiam a explorá-lo sozinho durante a noite. Descubra os residentes e ajude-os com seus pedidos."
     },
-    role: TODO,
-    skills: ["Unity", "C#", "3D", "Puzzle design"],
+    role: { en: "Lead Developerm, Programmer and Sound Design", pt: "Líder de Desenvolvimento, Programador e Design Sonoro" },
+    skills: ["Unity3D", "C#", "3D Modelling Integration"],
     links: [{ label: "Download on itch.io", url: "https://vizzotto.itch.io/ecos-do-passado" }]
   },
-  {
+  /*{
     id: "soul-fall",
     title: "Soul Fall",
     cover: "https://img.itch.zone/aW1nLzE3MTExMzY5LnBuZw==/original/od87c7.png",
@@ -90,19 +87,19 @@ const PROJECTS = [
     role: TODO,
     skills: ["Point & click", "Puzzle design", "Teamwork"],
     links: [{ label: "Download on itch.io", url: "https://vizzotto.itch.io/soul-fall" }]
-  },
+  },*/
   {
     id: "name-game",
     title: "name-game",
     cover: "https://img.itch.zone/aW1nLzI0MjgyMjA5LnBuZw==/original/XV1LzK.png",
     images: ["https://img.itch.zone/aW1nLzI0MjgyMjA5LnBuZw==/original/XV1LzK.png"],
-    summary: { en: "Action game made with a teammate for HERYJAM-QA.", pt: "Jogo de ação feito com um colega para a HERYJAM-QA." },
+    summary: { en: "A simple game made to understand scope in software development.", pt: "Jogo simplês feito para compreender escopo na engenharia de software." },
     description: {
-      en: "TODO: the itch.io page has no description. Add a few sentences about the game.",
-      pt: "TODO: a página do itch.io não tem descrição. Adicione algumas frases sobre o jogo."
+      en: "A 16-bit single color action boss fight game made for HERYJAM-QA.",
+      pt: "Um jogo 16-bits monocromática de boss fight feito para a HERYJAM-QA."
     },
-    role: TODO,
-    skills: ["Unity", "C#"],
+    role: { en: "Lead Developer and Programmer", pt: "Líder de Desenvolvimento e Programador" },
+    skills: ["Unity2D", "C#", "Software Engineering"],
     links: [{ label: "Play on itch.io", url: "https://vizzotto.itch.io/name-game" }]
   },
   {
@@ -118,8 +115,8 @@ const PROJECTS = [
       en: "TODO: the itch.io page has no description. Add a few sentences about the game.",
       pt: "TODO: a página do itch.io não tem descrição. Adicione algumas frases sobre o jogo."
     },
-    role: TODO,
-    skills: ["Unity", "C#"],
+    role: { en: "Developer and Programmer", pt: "Desenvolvedor e Programador" },
+    skills: ["Unity3D", "C#", "Level Design", "Puzzle design"],
     links: [{ label: "Play on itch.io", url: "https://vizzotto.itch.io/codebreach" }]
   },
   {
@@ -129,14 +126,14 @@ const PROJECTS = [
     images: ["https://img.itch.zone/aW1nLzIzNTQ3OTY1LnBuZw==/original/bO1f9y.png"],
     summary: { en: "Survival game about the purgatory of your choices.", pt: "Jogo de sobrevivência sobre o purgatório das suas escolhas." },
     description: {
-      en: "Try to survive the purgatory of your choices. Hosted on Sunnylikebirds' itch.io page. TODO: add more detail.",
-      pt: "Tente resistir o purgatório de suas escolhas. Hospedado na página de Sunnylikebirds no itch.io. TODO: adicione mais detalhes."
+      en: "Try to survive the purgatory of your choices. Winner of GameJamUFN 2025.2 (theme: \"You Shouldn't Be Here\").",
+      pt: "Tente resistir o purgatório de suas escolhas. Vencedor da GameJamUFN 2025.2 (tema: \"Você não devia estar aqui\")."
     },
-    role: TODO,
-    skills: ["Survival", "Teamwork"],
+    role: { en: "Lead Developer and Programmer", pt: "Líder de Desenvolvimento e Programador" },
+    skills: ["Unity3D", "C#", "Team Management"],
     links: [{ label: "Play on itch.io", url: "https://sunnylikebirds.itch.io/para-sempre-aqui" }]
   },
-  {
+  /*{
     id: "last-laugh",
     title: "Last Laugh",
     cover: "https://img.itch.zone/aW1nLzE0ODQ3MjQxLnBuZw==/315x250%23c/%2BW20s9.png",
@@ -149,7 +146,7 @@ const PROJECTS = [
     role: TODO,
     skills: ["Puzzle design", "Teamwork"],
     links: [{ label: "Play on itch.io", url: "https://davi-kss.itch.io/last-laugh" }]
-  },
+  },*/
   /*{
     id: "priscila-web",
     title: "Priscila Web",
