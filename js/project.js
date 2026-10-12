@@ -133,7 +133,21 @@ const PROJECTS = [
     skills: ["Unity3D", "C#", "Team Management"],
     links: [{ label: "Play on itch.io", url: "https://sunnylikebirds.itch.io/para-sempre-aqui" }]
   },
-  /*{
+  /*
+  {
+    id: "beyond-the-veil",
+    title: "Beyond the Veil",
+    cover: "cover image url",
+    images: ["detailed image urls 1", "2", ...],
+    summary: { en: "summary 1.", pt: "summary 2." },
+    description: {
+      en: "description 1.",
+      pt: "description 2."
+    },
+    role: { en: "Programmer", pt: "Programador" },
+    skills: ["Java", "Jira", "Agile Development"],
+  }
+  {
     id: "last-laugh",
     title: "Last Laugh",
     cover: "https://img.itch.zone/aW1nLzE0ODQ3MjQxLnBuZw==/315x250%23c/%2BW20s9.png",
@@ -146,8 +160,8 @@ const PROJECTS = [
     role: TODO,
     skills: ["Puzzle design", "Teamwork"],
     links: [{ label: "Play on itch.io", url: "https://davi-kss.itch.io/last-laugh" }]
-  },*/
-  /*{
+  },
+  {
     id: "priscila-web",
     title: "Priscila Web",
     cover: "https://img.itch.zone/aW1nLzEzNjAxNTE5LnBuZw==/315x250%23c/LIez%2Bz.png",
@@ -164,6 +178,7 @@ const PROJECTS = [
 ];
 
 /* BASE TEMPLATE FOR NEW PROJECTS
+,
 {
     id: "id",
     title: "name",
@@ -177,4 +192,5 @@ const PROJECTS = [
     role: TODO,
     skills: ["skill used"],
     links: [{ label: "Play on itch.io", url: "url" }]
-  }*/
+  }
+    */

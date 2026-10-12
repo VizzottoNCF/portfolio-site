@@ -1,11 +1,11 @@
 const UI = {
   en: { navProjects: "Projects", navAbout: "About", title: "Game Developer",
-        intro: "I make games, these are my projects.",
-        about: "Write a short paragraph about yourself here: where you are, what you like to build, and how to reach you.",
+        intro: "I make games.",
+        about: "I'm a college graduate with a technician degree in Game Development by UFN.",
         role: "My role", skills: "Main skills" },
   pt: { navProjects: "Projetos", navAbout: "Sobre", title: "Desenvolvedor de Jogos",
-        intro: "Eu faço jogos, esses são meus projetos.",
-        about: "Escreva aqui um parágrafo sobre você: onde está, o que gosta de criar e como entrar em contato.",
+        intro: "Eu faço jogos.",
+        about: "Sou um egresso de curso técnico de Desenvolvimento de Jogos pela UFN.",
         role: "Meu papel", skills: "Principais habilidades" }
 };
 
